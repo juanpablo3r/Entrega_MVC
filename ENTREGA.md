@@ -70,3 +70,27 @@ Author: juanpablocardonamira38@gmail.com <johnemma2310@gmail.com>
  src/main.js    | 4 ++--
  2 files changed, 7 insertions(+), 2 deletions(-)
 ```
+
+## 4. Resultado de las pruebas
+
+```
+
+> mvc-notas-lab@1.0.0 test
+> node pruebas/ejecutar.mjs
+
+
+MODELO
+  ✓ A · Agregar y validar ......................... 11/11
+  ✓ B · Calificar y eliminar ...................... 7/7
+  ✓ C · Resumen ................................... 10/10
+  ✓ D · Observador y persistencia ................. 8/8
+  ✓ E · Parte 5A · Nombres únicos ................. 3/3
+
+ARQUITECTURA
+  ✓ Modelo puro ................................... 4/4
+  ✓ Vista pasiva .................................. 5/5
+  ✓ Controlador delgado ........................... 6/6
+
+✓ 54 de 54 pruebas pasan.
+
+```
