@@ -37,3 +37,8 @@ export class AlmacenLocal extends AlmacenWeb {
   }
 }
 
+export class AlmacenSesion extends AlmacenWeb {
+  constructor(clave = 'notas.v1') {
+    super(globalThis.sessionStorage, clave);
+  }
+}
