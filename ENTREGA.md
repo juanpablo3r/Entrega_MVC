@@ -1,6 +1,6 @@
 # Entrega: Laboratorio MVC — Del espagueti al MVC
 
-Equipo N
+Equipo 5
 
 Integrantes:
 - Juan Pablo Cardona Mira
@@ -32,3 +32,41 @@ Integrantes:
 9. `controlador.js`, `#intentar`: limpia el error y el formulario.
 
 Si el Modelo lanza `ErrorDeReglas`, `#intentar` llama a `vista.mostrarError(mensaje)` y luego a `vista.render()`.
+
+## 5. Evidencia de la Parte 5
+
+### Parte 5A
+```
+commit 42b8d9aa5b8c1423e038ccfe85a7a6636eb2cf2b
+Author: juanpablocardonamira38@gmail.com <johnemma2310@gmail.com>
+
+    Parte 5A: nombres unicos
+
+ src/modelo.js | 3 +++
+ 1 file changed, 3 insertions(+)
+```
+
+### Parte 5B
+```
+commit 155d5344bcd01c523a7cb2449c6f181878472542
+Author: juanpablocardonamira38@gmail.com <johnemma2310@gmail.com>
+
+    Parte 5B: termometro
+
+ src/almacen.js          | 39 +++++++++++++++++++++++++++++++++++++++
+ src/main.js             | 10 ++++++++++
+ src/termometro-vista.js | 35 +++++++++++++++++++++++++++++++++++
+ 3 files changed, 84 insertions(+)
+```
+
+### Parte 5C
+```
+commit 75e5bbb57ad961bb0ab278422560db72f07422f0
+Author: juanpablocardonamira38@gmail.com <johnemma2310@gmail.com>
+
+    Parte 5C: almacen de sesion
+
+ src/almacen.js | 5 +++++
+ src/main.js    | 4 ++--
+ 2 files changed, 7 insertions(+), 2 deletions(-)
+```
